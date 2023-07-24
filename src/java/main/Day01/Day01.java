@@ -96,6 +96,7 @@ public class Day01 {
 						isBlueHole = true;
 						break;
 					}
+					
 				}
 				
 				if(isBlueHole) { // 파란 구슬이 구멍에 빠지면 무조건 실패 
