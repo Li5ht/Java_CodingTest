@@ -1,8 +1,8 @@
-package Day01;
+package Day01.p1;
 
 import java.util.Scanner;
 
-public class Day01 {
+public class Day01_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,5 @@ public class Day01 {
         System.out.print(taiLandYr - 543);
 
         sc.close();
-
-
     }
 }
