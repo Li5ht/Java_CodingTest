@@ -14,5 +14,6 @@ public class Day01 {
         System.out.print(taiLandYr - 543);
 
         sc.close();
+
     }
 }
