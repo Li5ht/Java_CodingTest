@@ -15,5 +15,6 @@ public class Day01 {
 
         sc.close();
 
+
     }
 }
