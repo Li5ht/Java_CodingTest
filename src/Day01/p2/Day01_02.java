@@ -17,5 +17,6 @@ public class Day01_02 {
         System.out.println(((a%c) * (b%c))%c);
 
         sc.close();
+
     }
 }
