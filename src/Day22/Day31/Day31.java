@@ -1,4 +1,4 @@
-package Day31;
+package Day22.Day31;
 
 public class Day31 {
 }
