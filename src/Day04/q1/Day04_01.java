@@ -7,6 +7,8 @@ public class Day04_01 {
         Scanner sc = new Scanner(System.in);
 
 
+
+
         
 
         sc.close();
