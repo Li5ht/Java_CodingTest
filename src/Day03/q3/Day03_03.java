@@ -33,10 +33,10 @@ public class Day03_03 {
             if (h < 0) {
                 h = 23;
             }
-            System.out.printf(h + " ", m);
+            System.out.println(h + " "+m);
         }
         else
-            System.out.printf(h + " ", m - 45);
+            System.out.println(h + " "+ (m-45));
 
         sc.close();
     }
