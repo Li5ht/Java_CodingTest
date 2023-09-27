@@ -6,7 +6,8 @@ public class Day05_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num = sc.nextInt();
+        //방법1
+       /* int num = sc.nextInt();
         int count = 0;
 
         if (num % 4 == 0){
@@ -15,7 +16,17 @@ public class Day05_01 {
                     System.out.print("long ");
                 }
         }
-        System.out.println("int");
+        System.out.println("int");*/
+
+        //방법2
+        int n = sc.nextInt();
+        String str = "";
+        sc.close();
+
+        for(int i=1; i<=n/4; i++) {
+            str += "long ";
+        }
+        System.out.println(str + "int");
 
         sc.close();
     }
