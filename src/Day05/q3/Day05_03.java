@@ -6,7 +6,7 @@ public class Day05_03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        /*int n = sc.nextInt();
 
         int[] a = new int[n];
         int[] b = new int[n];
@@ -20,6 +20,17 @@ public class Day05_03 {
 
         for (int i=0; i<n; i++){
             System.out.println("Case "+(i+1)+": "+sum[i]);
+        }*/
+
+        Scanner in = new Scanner(System.in);
+
+        int a = in.nextInt();
+
+        for (int i = 1; i <= a; i++) {
+            int c = in.nextInt();
+            int d = in.nextInt();
+
+            System.out.println("Case #" + i + ": " + (c + d));
         }
 
         sc.close();
