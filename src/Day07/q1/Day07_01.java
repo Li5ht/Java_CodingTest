@@ -6,22 +6,33 @@ public class Day07_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        /* => While문이 아니라 For문을 써서 틀림
+        int[] a = new int[6];
+        int[] b = new int[6];
 
-        int[] a = new int[n];
-        int[] b = new int[n];
-        int[] sum = new int[n];
+        a[5] = 0;
+        b[5] = 0;
 
-        for (int i=0; i<n; i++){
+
+        for (int i=0; i<5; i++){
             a[i] = sc.nextInt();
             b[i] = sc.nextInt();
-            sum[i] = a[i] + b[i];
         }
 
-        for (int i=0; i<n; i++){
-            System.out.println("Case "+(i+1)+": "+sum[i]);
-        }
+        for (int i=0; i<5; i++){
+            System.out.println(a[i]+b[i]);
+        }*/
 
-        sc.close();
+        while(true) {
+
+            int A = sc.nextInt();
+            int B = sc.nextInt();
+
+            if (A == 0 && B == 0) {
+                sc.close();
+                break;
+            }
+            System.out.println(A + B);
+        }
     }
 }

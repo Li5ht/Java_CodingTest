@@ -8,23 +8,24 @@ public class Day06_03 {
 
         int N = sc.nextInt();
 
-       /* for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= i; j++) {
-                for (int k = N-1 ; k >=0; k--){
-                    System.out.print(" ");
-                }
+       /*for (int i = 1; i <= N; i++) {
+           for (int j = 1 ; j <= N - 1; j++){ // 1이 아닌 i로 해서 틀림
+               System.out.print(" ");
+           }
+            for (int k = 0; k < i; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }*/
 
         for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= N - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < i; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
-        sc.close();
     }
 }
