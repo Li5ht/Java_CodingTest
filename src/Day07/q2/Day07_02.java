@@ -6,20 +6,14 @@ public class Day07_02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        //int i = 0; => i는 사용하지 않음
 
-        int[] a = new int[n];
-        int[] b = new int[n];
-        int[] sum = new int[n];
+        while(sc.hasNextInt()) {
 
-        for (int i=0; i<n; i++){
-            a[i] = sc.nextInt();
-            b[i] = sc.nextInt();
-            sum[i] = a[i] + b[i];
-        }
+            int A = sc.nextInt();
+            int B = sc.nextInt();
 
-        for (int i=0; i<n; i++){
-            System.out.println("Case "+(i+1)+": "+sum[i]);
+            System.out.println(A + B);
         }
 
         sc.close();
