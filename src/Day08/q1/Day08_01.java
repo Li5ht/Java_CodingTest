@@ -21,11 +21,24 @@ public class Day08_01 {
             }*/
         }
 
+
+
+        System.out.println("");
+
         for (int i = 0; i < n ; i++){
             if (A[i] < x) {
                 System.out.print(A[i] + " ");
             }
         }
+
+
+
+
+
+
+
+
+
 
         sc.close();
     }
