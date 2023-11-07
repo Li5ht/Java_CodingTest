@@ -3,4 +3,12 @@
   <groupId>CodingTest</groupId>
   <artifactId>CodingTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <java.version>11</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <swt.version>4.3</swt.version>
+    <swt.mainclass>com.codingTest</swt.mainclass>
+  </properties>
 </project>
