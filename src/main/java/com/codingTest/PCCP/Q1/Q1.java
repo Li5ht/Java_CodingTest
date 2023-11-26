@@ -8,7 +8,8 @@ public class Q1 {
 
         private Point(long x, long y){
             this.y = y;
-            this.x = x;
+
+
         }
     }
 
