@@ -12,5 +12,6 @@ public class Q2 {
         sc.close();
         //int[] answer = {};
       //  return answer;
+        return null;
     }
 }
