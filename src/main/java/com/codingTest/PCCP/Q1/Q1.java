@@ -2,6 +2,7 @@ package com.codingTest.PCCP.Q1;
 
 import java.util.*;
 
+//따로 다시 해볼 것
 public class Q1 {
 
     private static class Point {
