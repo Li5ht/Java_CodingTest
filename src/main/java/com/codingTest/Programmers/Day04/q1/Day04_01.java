@@ -4,6 +4,6 @@ public class Day04_01 {
     public String solution(String[] arr) {
         String answer = String.join("", arr);
         
-        
+        return answer;
     }
 }
