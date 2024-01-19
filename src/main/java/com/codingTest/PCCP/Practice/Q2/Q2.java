@@ -1,4 +1,4 @@
-package com.codingTest.PCCP.Q2;
+package com.codingTest.PCCP.Practice.Q2;
 
 import java.util.*;
 
