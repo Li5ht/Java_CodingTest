@@ -15,7 +15,6 @@ public class LAB2_2 {
         for(int i : chk) {
             if(i == 0) return false;
         }
-
         return true;
     }
 }
