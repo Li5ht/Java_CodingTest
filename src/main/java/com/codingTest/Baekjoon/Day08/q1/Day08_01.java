@@ -28,14 +28,6 @@ public class Day08_01 {
         }
 
 
-
-
-
-
-
-
-
-
         sc.close();
     }
 }
