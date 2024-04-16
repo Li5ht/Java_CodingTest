@@ -26,8 +26,6 @@ public class Day08_01 {
                 System.out.print(A[i] + " ");
             }
         }
-
-
         sc.close();
     }
 }
