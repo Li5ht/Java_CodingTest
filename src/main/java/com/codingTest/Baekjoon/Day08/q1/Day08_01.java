@@ -18,10 +18,10 @@ public class Day08_01 {
         System.out.print("영희 입력: ");
         String y = sc.nextLine();
 
-        if (!(c.equals("가위")) && !(c.equals("바위")) && !(c.equals("보")) ){
+        if (!(y.equals("가위")) && !(y.equals("바위")) && !(y.equals("보")) ){
             System.out.println("잘못된 입력입니다.'가위, 바위, 보' 중에서 입력해주세요!");
             System.out.print("영희 입력: ");
-            c = sc.nextLine();
+            y = sc.nextLine();
         }
 
         if (c.equals("가위")){
