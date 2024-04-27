@@ -4,15 +4,14 @@ import java.util.Scanner;
 
 public class Day11_01 {
     public static int searchArray(int[] array, int key){
-        int ct = 0;
-        for (int i=0; i<10; i++){
-            if (key == array[i]){
-                if (ct > 1)
+        int count = 0, location = 1;
+        for (int i : array){
+            if (key == i){
+                location++;
+                if (count>1)
                     return 0;
-                else if (ct == 0 ){
-                    ct++;
-                    return i+1;
-                }
+                else if (count==0)
+                    return location;
             }
         }
         return -1;
