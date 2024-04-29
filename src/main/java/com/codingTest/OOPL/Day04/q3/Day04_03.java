@@ -1,6 +1,6 @@
-package com.codingTest.Baekjoon.Day11.q3;
+package com.codingTest.OOPL.Day04.q3;
 
-public class Day11_03 {
+public class Day04_03 {
     public static void main(String[] args){
         int[][] intArray = {{1,2,3,4},{10,20,30,40},{100,200,300,400}};
         int[][] colSum = new int[4][4];

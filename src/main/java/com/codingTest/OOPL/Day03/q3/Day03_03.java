@@ -1,8 +1,8 @@
-package com.codingTest.Baekjoon.Day10.q3;
+package com.codingTest.OOPL.Day03.q3;
 
 import java.util.*;
 
-public class Day10_03 {
+public class Day03_03 {
 
     public static void printArray(int[] array){
         for (int i : array){

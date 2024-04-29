@@ -1,17 +1,18 @@
-package com.codingTest.Baekjoon.Day11.q1;
+package com.codingTest.OOPL.Day02.q3;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class Day11_01 {
+public class Day02_03 {
     public static int searchArray(int[] array, int key){
-        int count = 0, location = 1;
-        for (int i : array){
-            if (key == i){
-                location++;
-                if (count>1)
+        int ct = 0;
+        for (int i=0; i<10; i++){
+            if (key == array[i]){
+                if (ct > 1)
                     return 0;
-                else if (count==0)
-                    return location;
+                else if (ct == 0 ){
+                    ct++;
+                    return i+1;
+                }
             }
         }
         return -1;
@@ -19,7 +20,7 @@ public class Day11_01 {
 
     public static void printArray(int[] array){
         System.out.println("배열에 저장된 난수값 출력: ");
-        for (int i : array)
+        for (int i=0; i<10; i++)
             System.out.print(array[i]+"\t");
         System.out.println();
     }
@@ -28,7 +29,7 @@ public class Day11_01 {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[10];
 
-        for (int i : num ) {
+        for (int i = 0; i < 10; i++) {
             num[i] = (int) (Math.random() * 100);
         }
         printArray(num);

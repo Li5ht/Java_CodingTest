@@ -1,8 +1,8 @@
-package com.codingTest.Baekjoon.Day08.q3;
+package com.codingTest.OOPL.Day01.q3;
 
 import java.util.*;
 
-public class Day08_03 {
+public class Day01_03 {
 
     public static int whoswin(String com, String me){
         if ((com.equals("가위")&& me.equals("가위")) || (com.equals("바위") && me.equals("바위")) || (com.equals("보") && me.equals("보")))

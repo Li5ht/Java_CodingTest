@@ -1,8 +1,8 @@
-package com.codingTest.Baekjoon.Day08.q2;
+package com.codingTest.OOPL.Day01.q2;
 
 import java.util.*;
 
-public class Day08_02 {
+public class Day01_02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
