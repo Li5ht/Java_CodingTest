@@ -1,6 +1,6 @@
-package com.codingTest.Baekjoon.Day09.q2;
+package com.codingTest.OOPL.Day02.q2;
 
-public class Day09_02 {
+public class Day02_02 {
     public static void main(String[] args){
         int[] num = new int[10];
         int sum = 0;

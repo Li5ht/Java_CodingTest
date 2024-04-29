@@ -1,8 +1,8 @@
-package com.codingTest.Baekjoon.Day10.q1;
+package com.codingTest.OOPL.Day03.q1;
 
 import java.util.*;
 
-public class Day10_01 {
+public class Day03_01 {
     public static int searchArray(int[] array, int key){
         for (int i=0; i<5; i++){
             if (key == array[i]){
