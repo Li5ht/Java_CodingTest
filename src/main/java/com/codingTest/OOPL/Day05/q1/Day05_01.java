@@ -8,11 +8,12 @@ public class Day05_01 {
         d1.setYear(2010);
         d1.setMonth(8);
         d1.setDay(31);
-        System.out.println(d1.toString());
+        //System.out.println(d1.toString()); > toStirng 없이도 출력 가능
+        System.out.println(d1);
 
         d2.setYear(1998);
         d2.setMonth(9);
         d2.setDay(15);
-        System.out.println(d2.toString());
+        System.out.println(d2);
     }
 }
