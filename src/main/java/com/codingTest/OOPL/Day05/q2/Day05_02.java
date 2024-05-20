@@ -1,6 +1,6 @@
 package com.codingTest.OOPL.Day05.q2;
 
-import com.codingTest.OOPL.Day05.q1.Date;
+import com.codingTest.OOPL.Day05.q2.Date;
 
 public class Day05_02 {
     public static void main(String[] args){
