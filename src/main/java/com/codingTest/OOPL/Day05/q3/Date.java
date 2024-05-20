@@ -11,6 +11,14 @@ public class Date {
         this.year = year;
     }
 
+    public Date(){
+        year = 1;
+    }
+
+    public Date(int y){
+        year = y;
+    }
+
     public boolean isReap(){
         if (((year % 4 == 0) & (year%100 != 0)) | (year % 400 == 0))
             return true;
