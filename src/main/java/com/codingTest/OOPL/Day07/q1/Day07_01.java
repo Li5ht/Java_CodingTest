@@ -2,7 +2,7 @@ package com.codingTest.OOPL.Day07.q1;
 
 import java.util.*;
 
-public class Dat07_01 {
+public class Day07_01 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
