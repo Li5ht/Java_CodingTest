@@ -35,6 +35,5 @@ public class Day07_01 {
             System.out.println("당신은 다이어트가 필요하지 않습니다.");
 
         sc.close();
-
     }
 }
