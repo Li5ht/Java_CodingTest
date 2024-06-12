@@ -2,7 +2,7 @@ package com.codingTest.OOPL.Day07.q1;
 
 import java.util.*;
 
-public class Dat07_01 {
+public class Day07_01 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -35,6 +35,5 @@ public class Dat07_01 {
             System.out.println("당신은 다이어트가 필요하지 않습니다.");
 
         sc.close();
-
     }
 }
