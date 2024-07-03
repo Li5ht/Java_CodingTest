@@ -4,6 +4,9 @@ import java.util.*;
 
 public class Day07_02 {
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        sc.close();
 
     }
 }
