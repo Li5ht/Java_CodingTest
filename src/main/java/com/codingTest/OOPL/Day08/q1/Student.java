@@ -36,4 +36,5 @@ public class Student {
         this.sId = sId;
         this.major = "모름";
     }
+
 }
