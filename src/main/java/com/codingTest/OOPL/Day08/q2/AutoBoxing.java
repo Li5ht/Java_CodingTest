@@ -10,6 +10,8 @@ public class AutoBoxing {
 
     public static void main(String[] args){
         @SuppressWarnings("deprecation") // auto-boxing 경고 없애기
+                Integer m = 10;
+
         Integer x = 10; // 오토박싱
         Integer y = 20; // 오토박싱
 
