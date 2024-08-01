@@ -1,7 +1,7 @@
 package com.codingTest.Programmers.Day05.q1;
 
 public class Day05_01 {
-    public String solution(String my_string, String overwrite_string, int s) {
+    public static String solution(String my_string, String overwrite_string, int s) {
         String answer = "";
 
         int len01 = overwrite_string.length();
