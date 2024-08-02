@@ -15,7 +15,7 @@ import java.util.*;
 
 public class Add_3 {
 
-    //백준에서는 Exception 때문에 런타임 에러남...ㅋㅋㅋ
+    //백준에서는 Exception & IO 때문에 런타임 에러남...ㅋㅋㅋ -> 즉 사용하지 말라는 소리
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
