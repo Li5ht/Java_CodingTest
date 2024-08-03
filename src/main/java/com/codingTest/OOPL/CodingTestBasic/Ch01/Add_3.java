@@ -34,8 +34,6 @@ public class Add_3 {
             System.out.println(a+b);
         }
 
-
-
         //완전 틀린건 아니니 주석처리
         /*int[] sum = new int[5];
 
