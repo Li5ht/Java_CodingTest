@@ -1,4 +1,4 @@
-package com.codingTest.OOPL.CodingTestBasic.Ch01;
+package com.codingTest.CodePlus.CodingTestBasic.Ch01;
 
 //백준문제 : https://www.acmicpc.net/problem/10950
 

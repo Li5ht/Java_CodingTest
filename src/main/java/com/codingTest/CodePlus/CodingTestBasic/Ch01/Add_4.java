@@ -1,4 +1,4 @@
-package com.codingTest.OOPL.CodingTestBasic.Ch01;
+package com.codingTest.CodePlus.CodingTestBasic.Ch01;
 
 import java.util.*;
 import java.io.*;
