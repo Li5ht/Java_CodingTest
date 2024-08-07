@@ -22,6 +22,6 @@ public class CH02_02 {
                 dp[i] = Math.min(dp[i], dp[i / 3] + 1); // (1을 뺀 값과 2로 나눈 값중 최솟값) 과 3으로 나눈값중 최솟값
             }
         }
-        System.out.println(dp[N])
+        System.out.println(dp[N]);
     }
 }
