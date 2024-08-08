@@ -23,5 +23,6 @@ public class CH02_02 {
             }
         }
         System.out.println(dp[N]);
+
     }
 }
