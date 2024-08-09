@@ -93,8 +93,8 @@ public class Date {
         return 0;
     }*/
 
-    public static int compareDate(Date x, Date y){
-        /*if (x.year == y.year)
+  /*  public static int compareDate(Date x, Date y){
+        *//*if (x.year == y.year)
             if (x.month == y.month){
                 if (x.day > y.day)
                     return -1;
@@ -104,8 +104,8 @@ public class Date {
         else
             return 0;
 
-        else if ()*/
+        else if ()*//*
     }
-
+*/
 
 }
