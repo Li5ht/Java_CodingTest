@@ -25,13 +25,17 @@ public class Day09_01 {
                     dateList[j].getDay()+"일입니다.");
         }*/
 
-        for (int j = 0; j < 5; j++){
-            System.out.println((j+1)+"번째 날짜는 "+dateList[j].toString()+"일입니다.");
+        for (int j = 0; j < 5; j++) {
+            System.out.println((j + 1) + "번째 날짜는 " + dateList[j].toString() + "일입니다.");
+        }
 
         sc.close();
 
 
-      /*  com.codingTest.OOPL.Day06.q1.Date d1 = new com.codingTest.OOPL.Day06.q1.Date(2010,8,31);
+
+    }
+}
+   /*  com.codingTest.OOPL.Day06.q1.Date d1 = new com.codingTest.OOPL.Day06.q1.Date(2010,8,31);
         com.codingTest.OOPL.Day06.q1.Date d2 = new Date(1998,9,15);
 
         System.out.println(d1.toString());
@@ -39,5 +43,3 @@ public class Day09_01 {
 
         System.out.println(d2.toString());
         System.out.println(d2.printWestern());*/
-    }
-}
