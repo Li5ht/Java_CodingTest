@@ -17,7 +17,6 @@ public class Add_4 {
 
             System.out.println(sum);
         }
-
         sc.close();
     }
 }
