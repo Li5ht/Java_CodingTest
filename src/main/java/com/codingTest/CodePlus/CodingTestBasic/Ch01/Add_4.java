@@ -15,6 +15,7 @@ public class Add_4 {
 
             int sum = a + b;
 
+
             System.out.println(sum);
         }
         sc.close();
