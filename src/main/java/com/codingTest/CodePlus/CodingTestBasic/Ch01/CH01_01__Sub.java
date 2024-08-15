@@ -2,7 +2,7 @@ package com.codingTest.CodePlus.CodingTestBasic.Ch01;
 
 import java.io.*;
 
-public class Sub {
+public class CH01_01__Sub {
     public static void main (String[ ] args)  throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
