@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.*;
 import java.util.*;
 
-public class Add_3 {
+public class CH01_02__Add__3 {
 
     //백준에서는 Exception & IO 때문에 런타임 에러남...ㅋㅋㅋ -> 즉 사용하지 말라는 소리
     public static void main(String[] args) throws IOException {
