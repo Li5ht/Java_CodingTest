@@ -22,6 +22,7 @@ public class Day09_03 {
         Date earliest = dateList[0];
         int count = 0;
 
+/*
         for (int i = 1; i<5; i++){
             if (Date.compareDate(earliest.dateList[i])==-1){
                 earliest = dateList[i];
@@ -30,6 +31,7 @@ public class Day09_03 {
         }
 
         System.out.println("가장 빠른 날짜는 "+count+"번째 입력된 "+earliest.toString()+"입니다.");
+*/
 
         sc.close();
     }
