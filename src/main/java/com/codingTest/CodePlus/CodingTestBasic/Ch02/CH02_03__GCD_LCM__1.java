@@ -25,10 +25,10 @@ public class CH02_03__GCD_LCM__1 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int d = gcd(a,b);
+        //int d = gcd(a,b);
 
-        System.out.println(d);
-        System.out.println(a * b /d);
+        //System.out.println(d);
+       // System.out.println(a * b /d);
 
         sc.close();
 
