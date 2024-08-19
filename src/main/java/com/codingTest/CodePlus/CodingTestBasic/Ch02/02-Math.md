@@ -15,3 +15,4 @@ https://www.acmicpc.net/problem/17427
 
 
 ### 최대공약수, 소수 : 
+https://www.acmicpc.net/problem/2609
