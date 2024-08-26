@@ -32,5 +32,6 @@ public class CH02_03__GCD_LCM__1 {
 
         sc.close();
 
+
     }
 }
